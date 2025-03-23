@@ -1,14 +1,11 @@
-import NavBar from './Components/NavBar'
+import Dashboard from './Pages/Dashboard'
 import './App.css'
 
 function App() {
 
 
   return (
-    <div className='mx-5 my-5'>
-      <NavBar/>
-      Hello
-    </div>
+    <Dashboard/>
   )
 }
 
